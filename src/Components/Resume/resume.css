@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+/* font-family: 'Anonymous Pro', monospace; */
+@import url('https://fonts.googleapis.com/css?family=Anonymous+Pro');
+/* font-family: 'Kreon', serif; */
+@import url('https://fonts.googleapis.com/css?family=Kreon');
+
+#dialog{
+    background: url('https://images.pexels.com/photos/1294668/pexels-photo-1294668.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    opacity: 0.80;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 3%;
+    height: auto;
+    opacity: 0.80;
+    position: relative;
+    color: whitesmoke;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+
+}
+
+
+.dialog-content, h4, p, h3{
+    color: wheat;
+    text-shadow: 1px 1px black;
+    margin: 2%;
+}
+
+.dialog-content{
+    overflow: auto;
+    display: inline-block;
+}
+
+.resume-info{
+    /* outline: 1px solid red; */
+    color: white;
+    font-weight: 18px;
+    
+}
+
+.resume-info a{
+    margin: 5px;
+    margin-right: 15px;
+    color: white;   
+    height: 30px; 
+    font-size: 18px;
+    margin-left: 5px;
+    line-height: 35px;
+}
+
+
+.experience{
+    color: white;
+    margin: 5px;
+}
+
+.experience__title{
+    margin-top: 5%;
+    /* outline: 2px solid palevioletred; */
+    color: white;
+    font-size: 20px;
+    text-shadow: 0px 2px rgba(228, 185, 245, 0.623);
+    border-bottom: 2px solid palevioletred;
+}
+
+.experience li{
+    margin-bottom: 5px;
+}
+
+.rating{
+    margin-right: 3px;
+    color: white;
+    font-size: 18px;
+}
+
+.rate span:nth-child(2), span:nth-child(3),
+span:nth-child(4), span:nth-child(5), 
+span:nth-child(9){
+    color: rgb(66, 123, 133);
+    font-weight: bold;
+    font-size: 18px;
+    text-shadow: 0px 1px rgba(228, 185, 245, 0.623);
+}
+
+
