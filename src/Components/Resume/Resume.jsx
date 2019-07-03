@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './resume.css'
+import Graph from '../Graph/Graph'
 
 
 class Resume extends Component{
@@ -32,7 +33,7 @@ class Resume extends Component{
                 <div className="experience__title">
                     <h3>Experiencia</h3>
                 </div>
-                <p>Muktek Academy Muktek Academy</p>
+                <h3>Muktek Academy Muktek Academy</h3>
                 <p>Proyectos Full-Stack Web Developer</p>
                 <p><i className="far fa-calendar-alt"></i> Noviembre 2018 - Febrero 2019</p>
                 <p><i className="fas fa-map-marker-alt"></i>CDMX</p>
@@ -43,6 +44,27 @@ class Resume extends Component{
                   <li> BackEnd Proyectos NodeJS, MongoDB, mongoose, express.</li>
                   <li> Proyecto Full-Stack ReactJS/NodeJs.</li>
                 </ul>
+
+                <br/>
+
+                <h3>PuraScents</h3>
+                <p>BackEnd Trainee Web Developer</p>
+                <p><i className="far fa-calendar-alt"></i> Agosto 2018 - Noviembre 2019</p>
+                <p><i className="fas fa-map-marker-alt"></i> OR, Utha </p>
+                <ul>
+                  <li> Resolviendo Issues de la API</li>
+                  <li> Administrando base de datos en Firebase</li>
+                </ul>
+                <br/>
+                <h3>Mrs. Fixer</h3>
+                <p>Arreglo y mantenimieto de computadoras</p>
+                <p><i className="far fa-calendar-alt"></i> Enero 2008 - Mayo 2018</p>
+                <p><i className="fas fa-map-marker-alt"></i> Ciudad de Mexico </p>
+                <ul>
+                  <li> Mantenimiento de computadoras </li>
+                  <li> Instalacion de software </li>
+                </ul>
+
               </section>
             
                   <h3>Idiomas</h3>
@@ -63,6 +85,8 @@ class Resume extends Component{
                     <span className="rating"><i class="far fa-check-circle"></i></span>
                   </div>
               </div>
+
+              <Canvas />
               
             </div>
         </div>
